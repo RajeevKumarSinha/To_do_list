@@ -9,7 +9,8 @@
 .heading{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vw;
+    font-size: 4vw;
+    margin-top: 3vw;
 }
 .input1{
     border: none;
@@ -18,21 +19,23 @@
     border-right: none;
     /* margin-right: 0;
     padding-right: 0; */
+    /* margin-top: 1vw; */
     text-transform: capitalize;
-    width: 80%;
-    height: 2.5vw;
-    font-size: 1.3vw;
+    width: 79%;
+    height: 3.5vw;
+    font-size: 2.5vw;
     border-radius:5px 0 0 5px ;
 }
 .btn1{
     border: none;
+    padding: 1.2vw 0 2.7vw 0;
     border: 1px solid #80cfa9;
     color: #80cfa9;
     /* margin-left: 0;
     padding-left: 0; */
-    width: 17%;
-    font-size: 1.3vw;
-    height: 2.8vw;
+    width: 19%;
+    font-size: 1.8vw;
+    height: 4vw;
     border-radius: 0 5px 5px 0;
 }
 .btn1:hover{
@@ -51,9 +54,9 @@
     display: none;
 }
 .list_itm{
-    width: 80%;
+    width: 75%;
     display: inline-block;
-    font-size: 2.5vw;
+    font-size: 3vw;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
 }

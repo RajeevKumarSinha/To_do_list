@@ -14,10 +14,10 @@ add.addEventListener('click', function () {
     if (inputValue == '') {
         err.style.display = 'block';
     } else {
-        let htmlData = `<div class='single-element'><span class="list_itm" width="80%">${inputValue}</span>
-        <i class="far fa-check-circle" onclick='check()' style="color: #80cfa9;font-size: 1.5vw;margin-right: 1vw;"></i>
-        <i class="far fa-edit" onclick="editt()" style="color:rgb(0, 204, 255);font-size: 1.5vw;margin-right: 1vw;"></i>
-        <i class="far fa-times-circle" onclick='del()' style="color: red; font-size: 1.5vw;"></i>
+        let htmlData = `<div class='single-element'><span class="list_itm" width="70%">${inputValue}</span>
+        <i class="far fa-check-circle" onclick='check()' style="color: #80cfa9;font-size: 2.5vw;margin-right: 1vw;"></i>
+        <i class="far fa-edit" onclick="editt()" style="color:rgb(0, 204, 255);font-size: 2.5vw;margin-right: 1vw;"></i>
+        <i class="far fa-times-circle" onclick='del()' style="color: red; font-size: 2.5vw !important;"></i>
         </div>`;
         if (localStorage.getItem(inputValue) == null) {
             localStorage.setItem(inputValue, htmlData);
